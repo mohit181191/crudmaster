@@ -1,0 +1,82 @@
+#table {
+    padding: 0 180px;
+}
+.tableHead {
+    display: flex;
+    flex-flow: row;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.tableHead .cellHead {
+    padding: 6px 8px;
+    display: flex;
+    flex-flow: row;
+}
+.cellHead .icon {
+    display: flex;
+    flex-direction: column;
+}
+.cellHead .icon .inc {
+    padding: 4px 8px 0;
+}
+.cellHead .icon .dec {
+    padding: 0 8px 4px;
+}
+.tableBody {
+    min-height: 300px;
+}
+.arrowUp {
+    transform: rotate(180deg);
+}
+
+.cellRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: row;
+}
+.cellRow:last-child {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.cellRow .cell {
+    padding: 14px 8px;
+}
+.cellRow .empId {
+    color: #08f;
+}
+.actionIconCell {
+    cursor: pointer;
+}
+
+/*pagination */
+.pageBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.prev,
+.next {
+    padding: 0 10px;
+    cursor: pointer;
+    color: #08f;
+}
+.prev.pageDisabled,
+.next.pageDisabled {
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.2);
+}
+.pageNo {
+    padding: 0 6px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 24px;
+}
+.pageNo.selected {
+    color: #08f;
+}
+.pageNoCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

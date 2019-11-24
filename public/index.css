@@ -1,0 +1,11 @@
+@import "./styles/base.css";
+@import "./styles/search.css";
+@import "./styles/button.css";
+@import "./styles/modal.css";
+@import "./styles/table.css";
+@import "./styles/employeeDetail.css";
+@import "./styles//menu.css";
+
+body {
+    margin: 0;
+}

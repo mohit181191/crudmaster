@@ -1,0 +1,28 @@
+#search {
+    padding: 100px 180px 0;
+}
+#search .selectId {
+    height: 40px;
+}
+#search .selectInputCont {
+    height: 40px;
+    position: relative;
+}
+.selectInput {
+    height: 40px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+.heading {
+    font-size: 20px;
+    height: 40px;
+}
+
+.searchTable {
+    margin: 20px 0;
+}

@@ -1,0 +1,44 @@
+#employeeForm {
+    width: 400px;
+    font-size: 13px;
+    padding: 20px;
+}
+.fieldCont {
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.fieldCont label {
+    display: block;
+    color: gray;
+}
+.fieldCont input {
+    display: block;
+    padding: 4px;
+    width: 100%;
+    height: 40px;
+}
+.fieldCont .inputError {
+    color: red;
+    font-size: 11px;
+    line-height: 11px;
+    height: 13px;
+}
+.detailView{
+    padding: 16px;
+    width: 400px;
+}
+.detailView .detailViewHead {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.detailView .empCode {
+    color: rgba(0, 0, 0, 0.2);
+}
+.detailView .empName {
+    font-size: 24px;
+}
+.detailViewContent .row {
+    padding: 8px 0;
+}
+.detailViewContent .title {
+    color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,28 @@
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#modal.noBg {
+    background-color: initial;
+}
+#modal .dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#modal .menu {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#modal .modalHeading {
+    font-size: 24px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}

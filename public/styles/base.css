@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font: 14px/1.7 Arial, Helvetica, sans-serif;
+}
+.visible {
+    visibility: visible;
+}
+.hide {
+    visibility: hidden;
+}
+.enabled {
+    color: rgba(0, 0, 0, 0.8);
+}
+.disabled {
+    color: gray;
+}
+.wd-40 {
+    width: 40%;
+}
+.wd-50 {
+    width: 50%;
+}
+.wd-60 {
+    width: 60%;
+}
+.wd-100 {
+    width: 100%;
+}
+.u-ib {
+    display: inline-block;
+}
+.u-b {
+    display: block;
+}
+.u-none {
+    display: none;
+}
+.u-right {
+    text-align: right;
+}
+.u-v-m {
+    vertical-align: middle;
+}
