@@ -1,4 +1,5 @@
 # crudmaster
+Developed this project in vanilla JS, HTML, CSS.
 Steps to run this
 
 1. Install yarn in system.
